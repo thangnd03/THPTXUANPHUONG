@@ -1,0 +1,27 @@
+#wrap{
+    width: 1000px;
+    margin: 12px auto;
+    padding: 10px 0px 0px;
+    box-shadow: 0 0 12px gray;
+    overflow: hidden;
+}
+
+#main{
+    margin: 0 12px 12px 12px;
+}
+#main .content h3.h3{
+    background: linear-gradient(to top,#ddd,white);
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 4px;
+    padding: 12px 0px 12px 12px;
+    border-bottom: 1px red solid;
+    text-transform: uppercase;
+    border-left: 5px solid red;
+}
+
+#main img:hover{
+    opacity:0.8;
+    color:gray;
+}
